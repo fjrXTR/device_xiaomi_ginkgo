@@ -68,6 +68,9 @@ vendor.mm.enable.qcom_parser=63963135
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
+# SafetyNet
+ro.boot.verifiedbootstate=green
+
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
