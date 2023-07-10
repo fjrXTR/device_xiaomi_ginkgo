@@ -50,6 +50,9 @@ sys.ipo.pwrdncap=2
 ro.kernel.zio=38,108,105,16
 sys.ipo.disable=1
 
+# Memory Management
+ro.config.per_app_memcg=false
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
@@ -67,6 +70,8 @@ vendor.mm.enable.qcom_parser=63963135
 
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
+ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
+ro.netflix.signup=1
 
 # SafetyNet
 ro.boot.verifiedbootstate=green
